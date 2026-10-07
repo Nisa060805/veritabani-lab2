@@ -1,0 +1,3 @@
+FOREIGN KEY kısıtlamaları veritabanında referans bütünlüğünü korur.
+1. Var olmayan bir ders_id (99999) ile kayitlar tablosuna veri eklenmeye çalışıldığında veritabanı tutarsız veriyi önlemek için 'foreign key constraint violation' hatası verir.
+2. Öğrenci kaydı bulunan bir ders (ders_id = 101) silinmek istendiğinde, yetim kalacak (orphan) kayıtların oluşmaması için veritabanı silme işlemini reddeder.

@@ -1,0 +1,30 @@
+erDiagram
+    EGITMEN ||--o{ DERS : "verir"
+    UYELER ||--o{ KAYIT : "alir"
+    DERS ||--o{ KAYIT : "konusudur"
+
+    EGITMEN {
+        int egitmen_id PK
+        string ad
+        string brans
+    }
+
+    UYELER {
+        int uye_id PK
+        string ad
+        int dogum_yili
+    }
+
+    DERS {
+        int ders_id PK
+        string ad
+        int egitmen_id FK
+        int kontenjan
+    }
+
+    KAYIT {
+        int kayit_id PK
+        int uye_id FK
+        int ders_id FK
+        date tarih
+    }

@@ -1,0 +1,14 @@
+COPY 3
+COPY 10
+COPY 4
+COPY 8
+ egitmen | uye 
+---------+-----
+       3 |  10
+(1 row)
+
+ ders | kayit 
+------+-------
+    4 |     8
+(1 row)
+

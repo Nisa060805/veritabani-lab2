@@ -1,0 +1,29 @@
+       ders_adi        | egitmen_adi  
+-----------------------+--------------
+ Veritabani Sistemleri | Ahmet Yilmaz
+ Yazilim Mimarisi      | Ayse Kaya
+ Yapay Zekaya Giris    | Mehmet Demir
+ Web Gelistirme        | Ahmet Yilmaz
+(4 rows)
+
+ egitmen_adi  | ders_sayisi 
+--------------+-------------
+ Ahmet Yilmaz |           2
+ Mehmet Demir |           1
+ Ayse Kaya    |           1
+(3 rows)
+
+       ders_adi        | kayit_sayisi 
+-----------------------+--------------
+ Veritabani Sistemleri |            4
+ Yazilim Mimarisi      |            4
+ Yapay Zekaya Giris    |            0
+ Web Gelistirme        |            0
+(4 rows)
+
+      ders_adi      
+--------------------
+ Web Gelistirme
+ Yapay Zekaya Giris
+(2 rows)
+

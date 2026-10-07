@@ -1,0 +1,2 @@
+ERROR:  new row for relation "dersler" violates check constraint "check_kontenjan_pozitif"
+DETAIL:  Failing row contains (999, Hatalı Ders, 1, -5).
